@@ -5,6 +5,7 @@
 }
 body{
     background: #173f5f;
+    color: #ffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
