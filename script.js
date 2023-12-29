@@ -4,7 +4,7 @@ const minutsE1 = document.querySelector("#minutes");
 const secondsE1 = document.querySelector("#seconds");
 
 const year = new Date().getFullYear() + 1;
-const newYears = "1 Jan" + year;
+const newYears = "January 1, " + year;
 
 function countDown() {
     const newYearsDate = new Date(newYears)
